@@ -40,11 +40,11 @@ const maze = (s) => {
 
     if (row % 2 !== 0) ++oddCount;
 
-    mazeString = mazeString + '\n';
+    mazeString += '\n';
   }
   // End of row looping
 
   return mazeString;
 };
 
-console.log(maze(15));
+console.log(maze(23));
